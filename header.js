@@ -1,7 +1,7 @@
 document.querySelector('.header').innerHTML = `
   <section class="photo-area">
     <section class="photo-container">
-      <img src="sarah.jpg" class="photo"> 
+      <img src="assets/sarah.jpg" class="photo"> 
     </section>
   </section>
   <nav class="nav">

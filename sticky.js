@@ -1,8 +1,8 @@
-const body = document.querySelector('body');
-const photoArea = document.querySelector('.photo-area');
-const nav = document.querySelector('.nav');
 
 window.addEventListener('scroll', () => {
+  const body = document.querySelector('body');
+  const photoArea = document.querySelector('.photo-area');
+  const nav = document.querySelector('.nav');
   if (window.scrollY >= 60) {
     body.classList.add('sticky');
     nav.classList.add('sticky');
