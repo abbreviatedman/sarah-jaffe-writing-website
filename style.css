@@ -64,6 +64,7 @@ body.sticky {
   color: white;
   display: inline-block;
   padding: 10px 15px;
+  margin: 5px;
   line-height: 1;
   text-decoration: none;
   border-radius: 3px;
