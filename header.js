@@ -4,11 +4,18 @@ document.querySelector('.header').innerHTML = `
       <img src="assets/sarah.jpg" class="photo"> 
     </section>
   </section>
-  <nav class="nav">
-    <a href="./index.html" class="current menu-item index">Home</a>
-    <a href="./clips.html" class="menu-item clips">Clips</a>
-    <a href="./contact.html" class="menu-item contact">Contact</a>
-  </nav>
+  <section class="nav-area">
+    <section class="name">
+      <p>
+        Sarah W. Jaffe
+      </p>
+    </section>
+    <nav class="nav">
+      <a href="./index.html" class="current menu-item index">Home</a>
+      <a href="./clips.html" class="menu-item clips">Clips</a>
+      <a href="./contact.html" class="menu-item contact">Contact</a>
+    </nav>
+  </section>
 `
 
 
