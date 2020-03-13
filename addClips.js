@@ -26,9 +26,5 @@ clips.forEach(({title, link, publication, date, photo}, i) => {
   )
 
   document.querySelector('.main').innerHTML += clipContainer;
-
-  if (i !== clips.length - 1) {
-    document.querySelector('.main').innerHTML += `<div class="hr"></div>`;
-  }
 })
 
