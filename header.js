@@ -5,28 +5,21 @@ document.querySelector('.header').innerHTML = `
     </section>
   </section>
   <nav class="nav">
-    <a href="./index.html" class="menu-item index">Home</a>
+    <a href="./index.html" class="current menu-item index">Home</a>
     <a href="./clips.html" class="menu-item clips">Clips</a>
     <a href="./contact.html" class="menu-item contact">Contact</a>
   </nav>
 `
 
-const pathname = window.location.pathname;
-const start = pathname.includes('/')
-  ? pathname.indexOf('/') + 1
-  : 0;
 
-const end = pathname.includes('.')
-  ? pathname.lastIndexOf('.')
-  : pathname.length;
-
-const pageName = pathname.slice(start, end);
-
-
-document.querySelectorAll('.menu-item').forEach((menuItem) => {
-  if (menuItem.classList.contains(pageName)) {
+document.querySelectorAll('.menu-item').forEach((menuItem, i) => {
+  if (window.location.pathname.includes(menuItem.classList[menuItem.classList.length - 1])) {
     menuItem.classList.add('current');
   } else {
     menuItem.classList.remove('current');
+  }
+
+  if (window.location.pathname === '/' && i === 0) {
+    menuItem.classList.add('current');
   }
 })
