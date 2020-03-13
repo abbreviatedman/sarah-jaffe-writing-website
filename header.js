@@ -23,12 +23,6 @@ const end = pathname.includes('.')
 const pageName = pathname.slice(start, end);
 
 
-const clearCurrent = () => {
-  document.querySelectorAll('.menu-item').forEach((menuItem) => {
-    menuItem.classList.remove('current');
-  })
-}
-
 document.querySelectorAll('.menu-item').forEach((menuItem) => {
   if (menuItem.classList.contains(pageName)) {
     menuItem.classList.add('current');
