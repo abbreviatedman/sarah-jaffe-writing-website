@@ -7,11 +7,18 @@ const clips = [
     photo: './assets/breastfeeding-and-ppa.jpg',
   },
   {
-    title: 'Judge Judy’s Lifetime Achievement Is Teaching Us to Laugh at the Less Fortunate',
-    link: 'https://slate.com/culture/2019/06/judge-judys-new-york-times-profile-downplays-her-troubling-history.html',
-    publication: 'Slate',
-    date: 'June 26, 2018',
-    photo: './assets/judy.jpeg',
+   title: 'Life in Limbo: The Interminably Slow Pace of Adoptions',
+    link: 'https://bklyner.com/new-york-adoption/',
+    publication: 'Bklyner',
+    date: 'December 10, 2019',
+    photo: './assets/life-in-limbo.jpg',
+  },
+  {
+    title: 'Making Room For Fathers At Hospitals',
+    link: 'https://bklyner.com/the-only-way-we-got-through-that-first-night-was-with-my-daughter-on-my-chest-making-room-for-fathers-at-hospitals/',
+    publication: 'Bklyner',
+    date: 'June 13, 2019',
+    photo: './assets/making-room.jpg',
   },
   {
     title: 'How Beverly Cleary Transformed Her Harsh Childhood Into the Heartwarming Ramona Stories',
@@ -35,17 +42,10 @@ const clips = [
     photo: './assets/who.jpeg',
   },
   {
-    title: 'Life in Limbo: The Interminably Slow Pace of Adoptions',
-    link: 'https://bklyner.com/new-york-adoption/',
-    publication: 'Bklyner',
-    date: 'December 10, 2019',
-    photo: './assets/life-in-limbo.jpg',
+    title: 'Judge Judy’s Lifetime Achievement Is Teaching Us to Laugh at the Less Fortunate',
+    link: 'https://slate.com/culture/2019/06/judge-judys-new-york-times-profile-downplays-her-troubling-history.html',
+    publication: 'Slate',
+    date: 'June 26, 2018',
+    photo: './assets/judy.jpeg',
   },
-  {
-    title: 'Making Room For Fathers At Hospitals',
-    link: 'https://bklyner.com/the-only-way-we-got-through-that-first-night-was-with-my-daughter-on-my-chest-making-room-for-fathers-at-hospitals/',
-    publication: 'Bklyner',
-    date: 'June 13, 2019',
-    photo: './assets/making-room.jpg',
-  }
 ];
