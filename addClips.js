@@ -9,14 +9,14 @@ const makeClip = (titleText, linkSrc, publicationText, dateText, photoSrc) => `
             <p class="publication">${publicationText}</p>
             <p class="date">${dateText}</p>
           </section>
-        <section>
-      <section>
+        </section>
+      </section>
     </a>
   </section>
 `
 
 
-clips.forEach(({title, link, publication, date, photo}, i) => {
+clips.forEach(({title, link, publication, date, photo}) => {
   const clipContainer = makeClip(
     title,
     link,
