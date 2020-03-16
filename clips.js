@@ -1,5 +1,12 @@
 const clips = [
   {
+    title: `How My Struggle to Breastfeed Led to Postpartum Anxiety`,
+    link: 'https://www.healthywomen.org/content/article/how-my-struggle-breastfeed-led-postpartum-anxiety',
+    publication: 'Healthy Women',
+    date: 'March 16th, 2020',
+    photo: './assets/breastfeeding-and-ppa.jpg',
+  },
+  {
     title: 'Judge Judy’s Lifetime Achievement Is Teaching Us to Laugh at the Less Fortunate',
     link: 'https://slate.com/culture/2019/06/judge-judys-new-york-times-profile-downplays-her-troubling-history.html',
     publication: 'Slate',
