@@ -1,4 +1,3 @@
-
 window.addEventListener('scroll', () => {
   const body = document.querySelector('body');
   const photoArea = document.querySelector('.photo-area');
