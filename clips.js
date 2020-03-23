@@ -14,6 +14,13 @@ const clips = [
     photo: './assets/life-in-limbo.jpg',
   },
   {
+    title: 'Judge Judy’s Lifetime Achievement Is Teaching Us to Laugh at the Less Fortunate',
+    link: 'https://slate.com/culture/2019/06/judge-judys-new-york-times-profile-downplays-her-troubling-history.html',
+    publication: 'Slate',
+    date: 'June 26, 2019',
+    photo: './assets/judy.jpeg',
+  },
+  {
     title: 'Making Room For Fathers At Hospitals',
     link: 'https://bklyner.com/the-only-way-we-got-through-that-first-night-was-with-my-daughter-on-my-chest-making-room-for-fathers-at-hospitals/',
     publication: 'Bklyner',
@@ -40,12 +47,5 @@ const clips = [
     publication: 'Slate',
     date: 'July 10, 2018',
     photo: './assets/who.jpeg',
-  },
-  {
-    title: 'Judge Judy’s Lifetime Achievement Is Teaching Us to Laugh at the Less Fortunate',
-    link: 'https://slate.com/culture/2019/06/judge-judys-new-york-times-profile-downplays-her-troubling-history.html',
-    publication: 'Slate',
-    date: 'June 26, 2018',
-    photo: './assets/judy.jpeg',
   },
 ];
