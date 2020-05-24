@@ -1,9 +1,30 @@
 const clips = [
   {
+    title: `Childcare is essential for essential workers, but what if you’re not one of them?`,
+    link: 'https://bklyner.com/childcare-is-essential-for-essential-workers-but-what-if-youre-not-one-of-them/',
+    publication: 'Bklyner',
+    date: 'May 19, 2020',
+    photo: './assets/childcare-workers.jpg',
+  },
+  {
+    title: `Falling in Love With a Balloon Artist Taught Me I Never Wanted to Be “Normal”`,
+    link: 'https://catapult.co/stories/falling-in-love-with-a-balloon-artist-taught-me-i-never-wanted-to-be-normal-essay-sarah-jaffe',
+    publication: 'Catapult',
+    date: 'April 14, 2020',
+    photo: './assets/balloon-artist.jpg',
+  },
+  {
+    title: 'How To Tame a Chaotic Household',
+    link: 'https://slate.com/podcasts/how-to/2020/03/council-of-dads-author-bruce-feiler-on-family',
+    publication: 'How To!',
+    date: 'March 31, 2020',
+    photo: './assets/how-to.jpg',
+  },
+  {
     title: `How My Struggle to Breastfeed Led to Postpartum Anxiety`,
     link: 'https://www.healthywomen.org/content/article/how-my-struggle-breastfeed-led-postpartum-anxiety',
     publication: 'Healthy Women',
-    date: 'March 16th, 2020',
+    date: 'March 16, 2020',
     photo: './assets/breastfeeding-and-ppa.jpg',
   },
   {
