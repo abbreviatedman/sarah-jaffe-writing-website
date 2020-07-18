@@ -173,12 +173,13 @@ body.sticky {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  height: 100%;
   transition: all 0.3s ease;
   border-radius: 3px;
 }
 
 .clip-photo {
-  width: 100%
+  width: 100%;
 }
 
 .clip-photo img {
