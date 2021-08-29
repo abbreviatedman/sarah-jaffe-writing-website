@@ -1,5 +1,19 @@
 const clips = [
   {
+    title: `Who Gets To Be Bossypants? On Class and Privilege in Female Comedians’ Memoirs`,
+    link: "https://lithub.com/who-gets-to-be-bossypants-on-class-and-privilege-in-female-comedians-memoirs/",
+    publication: "Literary Hub",
+    date: "August 27, 2021",
+    photo: "./assets/bossypants.jpg",
+  },
+  {
+    title: `Paying In Time`,
+    link: "https://therumpus.net/2021/06/paying-in-time/",
+    publication: "The Rumpus",
+    date: "June 29, 2021",
+    photo: "./assets/paying-in-time.jpg",
+  },
+  {
     title: `Childcare is essential for essential workers, but what if you’re not one of them?`,
     link: 'https://bklyner.com/childcare-is-essential-for-essential-workers-but-what-if-youre-not-one-of-them/',
     publication: 'Bklyner',
