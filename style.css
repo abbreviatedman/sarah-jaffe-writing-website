@@ -140,7 +140,13 @@ body.sticky {
   width: 95vw;
 }
 
-.main-body, .clip {
+.books-main {
+  padding-top: 500px;
+  width: 95vw;
+}
+
+.main-body,
+.clip {
   border-radius: 2px;
   background: #fff;
   box-sizing: border-box;

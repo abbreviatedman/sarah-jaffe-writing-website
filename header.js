@@ -12,6 +12,7 @@ document.querySelector('.header').innerHTML = `
     </section>
     <nav class="nav">
       <a href="./index.html" class="current menu-item index">Home</a>
+      <a href="./books.html" class="menu-item books">Books</a>
       <a href="./clips.html" class="menu-item clips">Writing & Media</a>
       <a href="./contact.html" class="menu-item contact">Contact</a>
     </nav>
