@@ -1,4 +1,4 @@
-document.querySelector('.header').innerHTML = `
+document.querySelector(".header").innerHTML = `
   <section class="photo-area">
     <section class="photo-container">
       <img src="assets/sarah.jpg" class="photo"> 
@@ -17,17 +17,20 @@ document.querySelector('.header').innerHTML = `
       <a href="./contact.html" class="menu-item contact">Contact</a>
     </nav>
   </section>
-`
+`;
 
-
-document.querySelectorAll('.menu-item').forEach((menuItem, i) => {
-  if (window.location.pathname.includes(menuItem.classList[menuItem.classList.length - 1])) {
-    menuItem.classList.add('current');
+document.querySelectorAll(".menu-item").forEach((menuItem, i) => {
+  if (
+    window.location.pathname.includes(
+      menuItem.classList[menuItem.classList.length - 1]
+    )
+  ) {
+    menuItem.classList.add("current");
   } else {
-    menuItem.classList.remove('current');
+    menuItem.classList.remove("current");
   }
 
-  if (window.location.pathname === '/' && i === 0) {
-    menuItem.classList.add('current');
+  if (window.location.pathname === "/" && i === 0) {
+    menuItem.classList.add("current");
   }
-})
+});
